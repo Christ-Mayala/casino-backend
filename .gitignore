@@ -1,0 +1,53 @@
+# --- Node Modules & Build ---
+node_modules/
+dist/
+build/
+.out/
+.next/
+.nextcache/
+.nyc_output/
+
+# --- Environnement & Secrets ---
+.env
+.env.local
+.env.*.local
+*.env
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# --- IDE & OS Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Cache Files ---
+.cache/
+.tmp/
+temp/
+*.tmp
+
+# --- Coverage ---
+coverage/
+*.lcov
+
+# --- Typescript ---
+*.tsbuildinfo
+
+# --- Dependency Lock (si tu veux l’ignorer, optionnel) ---
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# --- Optional: Build Tools ---
+.eslintcache
+.stylelintcache
+
+# --- Docker ---
+docker-data/
