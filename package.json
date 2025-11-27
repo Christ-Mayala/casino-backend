@@ -1,10 +1,10 @@
-"scripts": {
+{
+  "scripts": {
   "dev": "tsx src/index.ts",
   "build": "tsc -p tsconfig.json",
   "start": "node dist/index.js",
   "seed": "tsx src/seed.ts"
 },
-{
   "dependencies": {
     "axios": "^1.12.2",
     "bcryptjs": "^3.0.2",
